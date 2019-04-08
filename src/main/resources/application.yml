@@ -1,0 +1,7 @@
+pubnub:
+    publishKey: pub-dummy
+    subscribeKey: sub-dummy
+
+logging:
+    level:
+        be.witspirit: debug

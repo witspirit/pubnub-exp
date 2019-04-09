@@ -1,4 +1,4 @@
-package be.witspirit.pubnub.exp;
+package be.witspirit.pubnub.exp.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package be.witspirit.pubnub.exp;
+package be.witspirit.pubnub.exp.common;
 
 public class ExpMessage {
     private String type;

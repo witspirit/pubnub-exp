@@ -1,4 +1,4 @@
-package be.witspirit.pubnub.exp;
+package be.witspirit.pubnub.exp.common;
 
 import com.google.gson.JsonElement;
 import com.pubnub.api.PubNub;
@@ -24,7 +24,7 @@ public class LogListener extends SubscribeCallback {
     @Override
     public void message(PubNub pubNub, PNMessageResult message) {
         JsonElement msg = message.getMessage();
-        LOG.info(msg.toString());
+        LOG.info(msg.toString()+"@"+message.getChannel()+" from "+message.getPublisher());
     }
 
     @Override

@@ -1,4 +1,4 @@
-package be.witspirit.pubnub.exp;
+package be.witspirit.pubnub.exp.common;
 
 import com.pubnub.api.PNConfiguration;
 import com.pubnub.api.PubNub;
